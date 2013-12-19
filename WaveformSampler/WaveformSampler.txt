@@ -1,0 +1,8 @@
+Waveform Sampler
+Ryan Foo 2013
+
+The waveform sampler is a sampler that is able to look at the waveform of the audio file and is able to play cut parts of the waveform.
+
+There are two view controllers. The first view controller is the playback mode. You are able to play the four preselected audio samples in play mode. If you press the button in the upper left corner, you can go to the edit mode. In the edit mode, you are able to select one button to edit. When you select this button, it will turn blue. You can only select one button to edit at a time.
+
+The second view controller is the edit mode. This allows you to see the waveform of the selected sample. After the waveform has been created, you are able to select which part of the waveform to edit. Due to time, I could not work the frame selection of the waveform. 

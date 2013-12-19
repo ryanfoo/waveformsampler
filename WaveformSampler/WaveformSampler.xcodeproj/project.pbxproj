@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E5F041E17822F71009D9BB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5F041D17822F71009D9BB1 /* UIKit.framework */; };
+		8E5F042017822F71009D9BB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5F041F17822F71009D9BB1 /* Foundation.framework */; };
+		8E5F042217822F71009D9BB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5F042117822F71009D9BB1 /* CoreGraphics.framework */; };
+		8E5F042817822F71009D9BB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F042617822F71009D9BB1 /* InfoPlist.strings */; };
+		8E5F042A17822F71009D9BB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F042917822F71009D9BB1 /* main.m */; };
+		8E5F042E17822F71009D9BB1 /* WSamplerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F042D17822F71009D9BB1 /* WSamplerAppDelegate.m */; };
+		8E5F043017822F71009D9BB1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F042F17822F71009D9BB1 /* Default.png */; };
+		8E5F043217822F71009D9BB1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F043117822F71009D9BB1 /* Default@2x.png */; };
+		8E5F043417822F71009D9BB1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F043317822F71009D9BB1 /* Default-568h@2x.png */; };
+		8E5F043717822F71009D9BB1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F043517822F71009D9BB1 /* MainStoryboard.storyboard */; };
+		8E5F043A17822F71009D9BB1 /* WSamplerFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F043917822F71009D9BB1 /* WSamplerFirstViewController.m */; };
+		8E5F043C17822F71009D9BB1 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F043B17822F71009D9BB1 /* first.png */; };
+		8E5F043E17822F71009D9BB1 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F043D17822F71009D9BB1 /* first@2x.png */; };
+		8E5F044117822F71009D9BB1 /* WSamplerSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F044017822F71009D9BB1 /* WSamplerSecondViewController.m */; };
+		8E5F044317822F71009D9BB1 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F044217822F71009D9BB1 /* second.png */; };
+		8E5F044517822F71009D9BB1 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F044417822F71009D9BB1 /* second@2x.png */; };
+		8E5F044C178230AC009D9BB1 /* Waveform.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F044B178230AC009D9BB1 /* Waveform.png */; };
+		8E5F044E178230DE009D9BB1 /* Waveform 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F044D178230DE009D9BB1 /* Waveform 114x114.png */; };
+		8E5F045517823820009D9BB1 /* green-square-th.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F045417823820009D9BB1 /* green-square-th.png */; };
+		8E5F045717823AED009D9BB1 /* red-square-button-th.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F045617823AED009D9BB1 /* red-square-button-th.png */; };
+		8E5F045A178243EC009D9BB1 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5F0459178243EC009D9BB1 /* GLKit.framework */; };
+		8E5F0463178246D5009D9BB1 /* Kick.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F045F178246D5009D9BB1 /* Kick.aif */; };
+		8E5F0464178246D5009D9BB1 /* Snare.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F0460178246D5009D9BB1 /* Snare.aif */; };
+		8E5F04671782496B009D9BB1 /* AudioData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F04661782496B009D9BB1 /* AudioData.m */; };
+		8E5F047117824B31009D9BB1 /* libAudiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5F046E178249A6009D9BB1 /* libAudiOS.a */; };
+		8E5F047317825AD5009D9BB1 /* blue-square-button-th.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F047217825AD5009D9BB1 /* blue-square-button-th.png */; };
+		8E5F04791782769B009D9BB1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5F04781782769B009D9BB1 /* AudioToolbox.framework */; };
+		8E5F047B178276AD009D9BB1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5F047A178276AD009D9BB1 /* OpenGLES.framework */; };
+		8E5F04C417847DA9009D9BB1 /* 08 College.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F04C317847DA9009D9BB1 /* 08 College.mp3 */; };
+		8E5F04C617847DBA009D9BB1 /* 03 Fertilizer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F04C517847DBA009D9BB1 /* 03 Fertilizer.mp3 */; };
+		8E5F04C817848F15009D9BB1 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5F04C717848F15009D9BB1 /* box.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E5F046D178249A6009D9BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E5F0468178249A6009D9BB1 /* AudiOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 547A71391778AE940023AE3C;
+			remoteInfo = AudiOS;
+		};
+		8E5F046F178249A6009D9BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E5F0468178249A6009D9BB1 /* AudiOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 547A714A1778AE940023AE3C;
+			remoteInfo = AudiOSTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E5F041A17822F71009D9BB1 /* WaveformSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveformSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5F041D17822F71009D9BB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E5F041F17822F71009D9BB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E5F042117822F71009D9BB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E5F042517822F71009D9BB1 /* WaveformSampler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaveformSampler-Info.plist"; sourceTree = "<group>"; };
+		8E5F042717822F71009D9BB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E5F042917822F71009D9BB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E5F042B17822F71009D9BB1 /* WaveformSampler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaveformSampler-Prefix.pch"; sourceTree = "<group>"; };
+		8E5F042C17822F71009D9BB1 /* WSamplerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSamplerAppDelegate.h; sourceTree = "<group>"; };
+		8E5F042D17822F71009D9BB1 /* WSamplerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSamplerAppDelegate.m; sourceTree = "<group>"; };
+		8E5F042F17822F71009D9BB1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8E5F043117822F71009D9BB1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8E5F043317822F71009D9BB1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8E5F043617822F71009D9BB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8E5F043817822F71009D9BB1 /* WSamplerFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSamplerFirstViewController.h; sourceTree = "<group>"; };
+		8E5F043917822F71009D9BB1 /* WSamplerFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSamplerFirstViewController.m; sourceTree = "<group>"; };
+		8E5F043B17822F71009D9BB1 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8E5F043D17822F71009D9BB1 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8E5F043F17822F71009D9BB1 /* WSamplerSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSamplerSecondViewController.h; sourceTree = "<group>"; };
+		8E5F044017822F71009D9BB1 /* WSamplerSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSamplerSecondViewController.m; sourceTree = "<group>"; };
+		8E5F044217822F71009D9BB1 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8E5F044417822F71009D9BB1 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		8E5F044B178230AC009D9BB1 /* Waveform.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Waveform.png; path = ../Waveform.png; sourceTree = "<group>"; };
+		8E5F044D178230DE009D9BB1 /* Waveform 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Waveform 114x114.png"; path = "../Waveform 114x114.png"; sourceTree = "<group>"; };
+		8E5F044F178230EA009D9BB1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		8E5F045417823820009D9BB1 /* green-square-th.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-square-th.png"; sourceTree = "<group>"; };
+		8E5F045617823AED009D9BB1 /* red-square-button-th.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-square-button-th.png"; sourceTree = "<group>"; };
+		8E5F0459178243EC009D9BB1 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		8E5F045F178246D5009D9BB1 /* Kick.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kick.aif; sourceTree = "<group>"; };
+		8E5F0460178246D5009D9BB1 /* Snare.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snare.aif; sourceTree = "<group>"; };
+		8E5F04651782496B009D9BB1 /* AudioData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioData.h; sourceTree = "<group>"; };
+		8E5F04661782496B009D9BB1 /* AudioData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioData.m; sourceTree = "<group>"; };
+		8E5F0468178249A6009D9BB1 /* AudiOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AudiOS.xcodeproj; path = AudiOS/AudiOS.xcodeproj; sourceTree = "<group>"; };
+		8E5F047217825AD5009D9BB1 /* blue-square-button-th.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-square-button-th.png"; sourceTree = "<group>"; };
+		8E5F04781782769B009D9BB1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8E5F047A178276AD009D9BB1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8E5F04C317847DA9009D9BB1 /* 08 College.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 College.mp3"; sourceTree = "<group>"; };
+		8E5F04C517847DBA009D9BB1 /* 03 Fertilizer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 Fertilizer.mp3"; sourceTree = "<group>"; };
+		8E5F04C717848F15009D9BB1 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E5F041717822F71009D9BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5F047B178276AD009D9BB1 /* OpenGLES.framework in Frameworks */,
+				8E5F045A178243EC009D9BB1 /* GLKit.framework in Frameworks */,
+				8E5F04791782769B009D9BB1 /* AudioToolbox.framework in Frameworks */,
+				8E5F047117824B31009D9BB1 /* libAudiOS.a in Frameworks */,
+				8E5F041E17822F71009D9BB1 /* UIKit.framework in Frameworks */,
+				8E5F042017822F71009D9BB1 /* Foundation.framework in Frameworks */,
+				8E5F042217822F71009D9BB1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E5F041117822F71009D9BB1 = {
+			isa = PBXGroup;
+			children = (
+				8E5F0468178249A6009D9BB1 /* AudiOS.xcodeproj */,
+				8E5F042317822F71009D9BB1 /* WaveformSampler */,
+				8E5F041C17822F71009D9BB1 /* Frameworks */,
+				8E5F041B17822F71009D9BB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E5F041B17822F71009D9BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F041A17822F71009D9BB1 /* WaveformSampler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E5F041C17822F71009D9BB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F047A178276AD009D9BB1 /* OpenGLES.framework */,
+				8E5F04781782769B009D9BB1 /* AudioToolbox.framework */,
+				8E5F0459178243EC009D9BB1 /* GLKit.framework */,
+				8E5F041D17822F71009D9BB1 /* UIKit.framework */,
+				8E5F041F17822F71009D9BB1 /* Foundation.framework */,
+				8E5F042117822F71009D9BB1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E5F042317822F71009D9BB1 /* WaveformSampler */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F04651782496B009D9BB1 /* AudioData.h */,
+				8E5F04661782496B009D9BB1 /* AudioData.m */,
+				8E5F042C17822F71009D9BB1 /* WSamplerAppDelegate.h */,
+				8E5F042D17822F71009D9BB1 /* WSamplerAppDelegate.m */,
+				8E5F043517822F71009D9BB1 /* MainStoryboard.storyboard */,
+				8E5F043817822F71009D9BB1 /* WSamplerFirstViewController.h */,
+				8E5F043917822F71009D9BB1 /* WSamplerFirstViewController.m */,
+				8E5F043F17822F71009D9BB1 /* WSamplerSecondViewController.h */,
+				8E5F044017822F71009D9BB1 /* WSamplerSecondViewController.m */,
+				8E5F04511782310B009D9BB1 /* Images */,
+				8E5F045C178246BA009D9BB1 /* Sounds */,
+				8E5F042417822F71009D9BB1 /* Supporting Files */,
+			);
+			path = WaveformSampler;
+			sourceTree = "<group>";
+		};
+		8E5F042417822F71009D9BB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F042517822F71009D9BB1 /* WaveformSampler-Info.plist */,
+				8E5F042617822F71009D9BB1 /* InfoPlist.strings */,
+				8E5F042917822F71009D9BB1 /* main.m */,
+				8E5F042B17822F71009D9BB1 /* WaveformSampler-Prefix.pch */,
+				8E5F042F17822F71009D9BB1 /* Default.png */,
+				8E5F043117822F71009D9BB1 /* Default@2x.png */,
+				8E5F043317822F71009D9BB1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E5F04511782310B009D9BB1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F04C717848F15009D9BB1 /* box.png */,
+				8E5F047217825AD5009D9BB1 /* blue-square-button-th.png */,
+				8E5F045617823AED009D9BB1 /* red-square-button-th.png */,
+				8E5F045417823820009D9BB1 /* green-square-th.png */,
+				8E5F043B17822F71009D9BB1 /* first.png */,
+				8E5F043D17822F71009D9BB1 /* first@2x.png */,
+				8E5F044217822F71009D9BB1 /* second.png */,
+				8E5F044417822F71009D9BB1 /* second@2x.png */,
+				8E5F044F178230EA009D9BB1 /* Default@2x.png */,
+				8E5F044D178230DE009D9BB1 /* Waveform 114x114.png */,
+				8E5F044B178230AC009D9BB1 /* Waveform.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8E5F045C178246BA009D9BB1 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F04C517847DBA009D9BB1 /* 03 Fertilizer.mp3 */,
+				8E5F04C317847DA9009D9BB1 /* 08 College.mp3 */,
+				8E5F045F178246D5009D9BB1 /* Kick.aif */,
+				8E5F0460178246D5009D9BB1 /* Snare.aif */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		8E5F0469178249A6009D9BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F046E178249A6009D9BB1 /* libAudiOS.a */,
+				8E5F0470178249A6009D9BB1 /* AudiOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E5F041917822F71009D9BB1 /* WaveformSampler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5F044817822F71009D9BB1 /* Build configuration list for PBXNativeTarget "WaveformSampler" */;
+			buildPhases = (
+				8E5F041617822F71009D9BB1 /* Sources */,
+				8E5F041717822F71009D9BB1 /* Frameworks */,
+				8E5F041817822F71009D9BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveformSampler;
+			productName = WaveformSampler;
+			productReference = 8E5F041A17822F71009D9BB1 /* WaveformSampler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E5F041217822F71009D9BB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WSampler;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "New York University";
+			};
+			buildConfigurationList = 8E5F041517822F71009D9BB1 /* Build configuration list for PBXProject "WaveformSampler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E5F041117822F71009D9BB1;
+			productRefGroup = 8E5F041B17822F71009D9BB1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8E5F0469178249A6009D9BB1 /* Products */;
+					ProjectRef = 8E5F0468178249A6009D9BB1 /* AudiOS.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8E5F041917822F71009D9BB1 /* WaveformSampler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8E5F046E178249A6009D9BB1 /* libAudiOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAudiOS.a;
+			remoteRef = 8E5F046D178249A6009D9BB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E5F0470178249A6009D9BB1 /* AudiOSTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AudiOSTests.octest;
+			remoteRef = 8E5F046F178249A6009D9BB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E5F041817822F71009D9BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5F042817822F71009D9BB1 /* InfoPlist.strings in Resources */,
+				8E5F043017822F71009D9BB1 /* Default.png in Resources */,
+				8E5F043217822F71009D9BB1 /* Default@2x.png in Resources */,
+				8E5F043417822F71009D9BB1 /* Default-568h@2x.png in Resources */,
+				8E5F043717822F71009D9BB1 /* MainStoryboard.storyboard in Resources */,
+				8E5F043C17822F71009D9BB1 /* first.png in Resources */,
+				8E5F043E17822F71009D9BB1 /* first@2x.png in Resources */,
+				8E5F044317822F71009D9BB1 /* second.png in Resources */,
+				8E5F044517822F71009D9BB1 /* second@2x.png in Resources */,
+				8E5F044C178230AC009D9BB1 /* Waveform.png in Resources */,
+				8E5F044E178230DE009D9BB1 /* Waveform 114x114.png in Resources */,
+				8E5F045517823820009D9BB1 /* green-square-th.png in Resources */,
+				8E5F045717823AED009D9BB1 /* red-square-button-th.png in Resources */,
+				8E5F0463178246D5009D9BB1 /* Kick.aif in Resources */,
+				8E5F0464178246D5009D9BB1 /* Snare.aif in Resources */,
+				8E5F047317825AD5009D9BB1 /* blue-square-button-th.png in Resources */,
+				8E5F04C417847DA9009D9BB1 /* 08 College.mp3 in Resources */,
+				8E5F04C617847DBA009D9BB1 /* 03 Fertilizer.mp3 in Resources */,
+				8E5F04C817848F15009D9BB1 /* box.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E5F041617822F71009D9BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5F042A17822F71009D9BB1 /* main.m in Sources */,
+				8E5F042E17822F71009D9BB1 /* WSamplerAppDelegate.m in Sources */,
+				8E5F043A17822F71009D9BB1 /* WSamplerFirstViewController.m in Sources */,
+				8E5F044117822F71009D9BB1 /* WSamplerSecondViewController.m in Sources */,
+				8E5F04671782496B009D9BB1 /* AudioData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E5F042617822F71009D9BB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5F042717822F71009D9BB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E5F043517822F71009D9BB1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5F043617822F71009D9BB1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E5F044617822F71009D9BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E5F044717822F71009D9BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E5F044917822F71009D9BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaveformSampler/WaveformSampler-Prefix.pch";
+				INFOPLIST_FILE = "WaveformSampler/WaveformSampler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E5F044A17822F71009D9BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaveformSampler/WaveformSampler-Prefix.pch";
+				INFOPLIST_FILE = "WaveformSampler/WaveformSampler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E5F041517822F71009D9BB1 /* Build configuration list for PBXProject "WaveformSampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5F044617822F71009D9BB1 /* Debug */,
+				8E5F044717822F71009D9BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5F044817822F71009D9BB1 /* Build configuration list for PBXNativeTarget "WaveformSampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5F044917822F71009D9BB1 /* Debug */,
+				8E5F044A17822F71009D9BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E5F041217822F71009D9BB1 /* Project object */;
+}
